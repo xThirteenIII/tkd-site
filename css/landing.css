@@ -182,6 +182,11 @@ section{
     gap: 1.5rem;
   }
 
+.corsi .information span {
+    font-size: 2rem;
+    color: var(--red);
+}
+
 .corsi .information h3 {
     font-size: 4rem;
     padding-top: .5rem;
@@ -347,7 +352,7 @@ section{
   .istruttori .box-container .box img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
   }
   
   .istruttori .box-container .box .content {
@@ -555,5 +560,59 @@ background: var(--red);
   
 .taekwondo .content .box-container .box h3 i {
     padding-right: 1.5rem;
+    color: var(--red);
+}
+
+.footer .box-container {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+    gap: 0;
+}
+
+.footer .box-container .box h3 {
+    font-size: 2.2rem;
+    color: var(--white);
+    padding: 1rem 0;
+}
+    
+.footer .box-container .box .links {
+    display: block;
+    font-size: 1.5rem;
+    color: var(--white);
+    padding: 1rem 0;
+}
+
+.footer .box-container .box .links {
+    display: block;
+    font-size: 1.5rem;
+    color: var(--white);
+    padding: 1rem 0;
+}
+
+.footer .box-container .box .links:hover {
+    color: var(--red);
+}
+
+.footer .box-container .box p {
+    display: block;
+    font-size: 1.5rem;
+    color: var(--white);
+    padding: 1rem 0;
+}
+
+.footer .box-container .box a {
+    display: block;
+    font-size: 1.5rem;
+    color: var(--white);
+    padding: 1rem 0;
+}
+
+.footer .box-container .box i {
+    color: var(--red);
+}
+
+.footer .box-container .box a:hover {
     color: var(--red);
 }
